@@ -1,0 +1,23 @@
+.mail{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.line h1 {
+  font-family: "Miss Fajardose", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: #6a2858;
+  font-size: 6rem;
+  margin-top: 0;
+} 
+
+.line {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}

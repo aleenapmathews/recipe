@@ -1,0 +1,40 @@
+.meals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.mealImg {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  height: 500px;
+  border: 1px solid black;
+}
+
+.imageCard {
+  width: 400px;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #b33791;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 10px;
+  font-weight: bold;
+}

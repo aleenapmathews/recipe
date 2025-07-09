@@ -1,0 +1,60 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  height: 100vh;
+}
+
+.line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.mealInfo {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+
+}
+
+.image {
+  width: 500px;
+  height: 600px;
+  border-radius: 40px 0 0 40px;
+}
+
+.info {
+  padding: 30px;
+}
+
+.line h1 {
+  font-family: "Miss Fajardose", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: #6a2858;
+  font-size: 6rem;
+} 
+
+h2 {
+  font-size: 3rem;
+  color: #6a2858;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #6a2858;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #6a2858;
+}
+
+li {
+  font-size: 1.2rem;
+  color: #6a2858;
+}
