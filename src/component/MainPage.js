@@ -34,7 +34,7 @@ const MainPage = () => {
       <Navbar></Navbar>
       <div className={styles["main-content"]}> 
         <div className={styles["heading"]}>
-          <h1>Mom's Secret</h1>
+          <h1>Mom's <span className={styles["span"]}>S</span>ecret</h1>
         </div>
 
         <div className={styles["body"]}>
@@ -54,6 +54,8 @@ const MainPage = () => {
             </div>
           </div>
         </div>
+
+        
       </div> 
       {/* <Footer></Footer> */}
     </div>
