@@ -1,19 +1,21 @@
-.mail{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+.mail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+/* Page heading */
 .line h1 {
-   font-family: "Libre Bodoni", serif;
+  font-family: "Libre Bodoni", serif;
   font-optical-sizing: auto;
-  font-weight:200;
+  font-weight: 200;
   font-style: normal;
+
   color: #6a2858;
   font-size: 6rem;
   margin-top: 0;
-} 
+}
 
 .line {
   width: 100%;
@@ -21,4 +23,69 @@
   display: flex;
   justify-content: center;
   border-bottom: 1px solid black;
+}
+
+/* Form container like card */
+.contact-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Card style similar to .mealImg */
+.contact-form form {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  width: 450px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border: 1px solid black;
+}
+
+/* Text */
+.contact-form p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Input group */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+/* Inputs */
+.form-group input,
+.form-group textarea {
+  width: 95%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+/* Button – same as meals button */
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #b33791;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  opacity: 0.9;
 }

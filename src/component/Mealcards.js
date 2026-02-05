@@ -9,7 +9,7 @@ const Mealcards = ({ detail }) => {
   return (
     <div className={styles["meals"]}>
       {!detail
-        ? ""
+        ? "" 
         : detail.map((curItem) => {
             return (
               <div className={styles["mealImg"]}>
@@ -21,7 +21,7 @@ const Mealcards = ({ detail }) => {
               </div>
             );
           })}
-          
+           
     </div>
   );
 };

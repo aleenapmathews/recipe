@@ -18,7 +18,7 @@ const MainPage = () => {
       setMsg("please enter something");
     } else {
       const get = await fetch(
-        `https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`
+        `https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`,
       );
       const jsonData = await get.json();
       // console.log(jsonData.meals);
@@ -32,9 +32,9 @@ const MainPage = () => {
   return (
     <div className={styles["page-wrapper"]}>
       <Navbar></Navbar>
-      <div className={styles["main-content"]}> 
+      <div className={styles["main-content"]}>
         <div className={styles["heading"]}>
-          <h1>Mom's <span className={styles["span"]}>S</span>ecret</h1>
+          <h1>Dishly</h1>
         </div>
 
         <div className={styles["body"]}>
@@ -46,7 +46,9 @@ const MainPage = () => {
                 onChange={handleInput}
                 className={styles["input"]}
               ></input>
-              <button onClick={myFun}>Search</button>
+              <button onClick={myFun} className={styles.searchButton}>
+                Search
+              </button>
             </div>
             <h4>{msg}</h4>
             <div>
@@ -54,9 +56,7 @@ const MainPage = () => {
             </div>
           </div>
         </div>
-
-        
-      </div> 
+      </div>
       {/* <Footer></Footer> */}
     </div>
   );
